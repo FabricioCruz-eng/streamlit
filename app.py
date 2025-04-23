@@ -205,4 +205,4 @@ Ferramenta criada e mantida por fabricio.cruz@claro.com.br
 ### Dados Utilizados
 Os arquivos utilizados na análise estão disponíveis em:
 1. Repositório de Dados do Portal Roma ./xls
-2. Disponibilidade ./trecho
+2. Disponibilidade ./trecho""")
