@@ -194,3 +194,15 @@ else:
         "Fev": [0, 0, 0, 0, 1]
     }
     st.dataframe(pd.DataFrame(exemplo)) 
+
+
+st.markdown("""---""")
+st.markdown("""
+🔥 Ainda precisa de mais informações? Acesse o portal - http://sit.nocclarobrasil.com.br/Roma/Default.aspx         
+
+Ferramenta criada e mantida por fabricio.cruz@claro.com.br
+            
+### Dados Utilizados
+Os arquivos utilizados na análise estão disponíveis em:
+1. Repositório de Dados do Portal Roma ./xls
+2. Disponibilidade ./trecho
