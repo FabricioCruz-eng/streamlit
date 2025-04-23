@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="Pesquisa de Dados", layout="wide")
+st.set_page_config(page_title="Pesquisa de Dados 📚", layout="wide")
 
 # Função para carregar dados do Excel
 @st.cache_data
@@ -15,7 +15,7 @@ def load_data(file):
         return None
 
 # Título do aplicativo
-st.title("Ferramenta de Pesquisa de Dados")
+st.title("Ferramenta de Pesquisa de Dados 🔎")
 
 # Upload do arquivo Excel
 uploaded_file = st.file_uploader("Carregar arquivo Excel", type=["xlsx", "xls"])
