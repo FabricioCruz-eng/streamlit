@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="Pesquisa de Dados 📚", layout="wide")
+st.set_page_config(page_title="Consulta dos Dados 📚", layout="wide")
 
 # Função para carregar dados do Excel
 @st.cache_data
@@ -50,7 +50,13 @@ if uploaded_file is not None:
         # Aplicar filtro de operadora se não for "Todas"
         if 'Operadora' in df.columns and operadora_selecionada != "Todas":
             df_filtrado = df_filtrado[df_filtrado['Operadora'] == operadora_selecionada]
-        
+
+        #Explorar os dados
+        st.header("Explorando os Dados")
+
+        st.subheader("Estastíticas Descritivas")
+        st.write(result_df.describe())
+
         # Mostrar estatísticas básicas
         st.subheader("Visão Geral dos Dados")
         st.write(f"Total de registros: {len(df_filtrado)}")
