@@ -51,13 +51,10 @@ if uploaded_file is not None:
         if 'Operadora' in df.columns and operadora_selecionada != "Todas":
             df_filtrado = df_filtrado[df_filtrado['Operadora'] == operadora_selecionada]
 
-        #Explorar os dados
-        st.header("Explorando os Dados")
-
-        st.subheader("Estastíticas Descritivas")
-        
+                       
         # Mostrar estatísticas básicas
         st.subheader("Visão Geral dos Dados")
+        st.subheader("Estastíticas Descritivas")
         st.write(f"Total de registros: {len(df_filtrado)}")
         
         # Exibir os dados
