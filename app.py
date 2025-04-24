@@ -55,8 +55,7 @@ if uploaded_file is not None:
         st.header("Explorando os Dados")
 
         st.subheader("Estastíticas Descritivas")
-        st.write(result_df.describe())
-
+        
         # Mostrar estatísticas básicas
         st.subheader("Visão Geral dos Dados")
         st.write(f"Total de registros: {len(df_filtrado)}")
