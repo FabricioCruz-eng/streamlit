@@ -209,7 +209,16 @@ Os arquivos utilizados na análise estão disponíveis em:
 1. Repositório de Dados do Portal Roma ./xls
 2. Disponibilidade ./trecho""")
 
+# Adicionando rodapé com informações de direitos autorais
+st.markdown("---")
+st.markdown(
+    """
+    <div style="text-align: center; color: white; background-color: black; padding: 10px;">
+        Todos os direitos reservados. <a href="#" style="color: white;">Política de Privacidade</a> - <a href="#" style="color: white;">Termos de Uso</a>
+        <br>Claro Brasil
+    </div>
+    """, 
+    unsafe_allow_html=True
+) 
 
-
-                                                                                               st.markdown(""" Todos os direitos reservados. Política de Privacidade - Termos de Uso 
-                                                                                                                       Claro Brasil""")
+                                                                                        
