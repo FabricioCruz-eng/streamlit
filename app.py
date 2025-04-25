@@ -218,7 +218,7 @@ st.markdown(
         <br>CNPJ: 41.075.192/0001-82
     </div>
     """, 
-    unsafe_allow_html=False
+    unsafe_allow_html=True
 ) 
 
                                                                                         
