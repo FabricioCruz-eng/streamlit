@@ -214,7 +214,7 @@ st.markdown("---")
 st.markdown(
     """
     <div style="text-align: center; color: white; background-color: black; padding: 10px;">
-        Todos os direitos reservados.Claro Brasil
+        Todos os direitos reservados - Claro Brasil
     </div>
     """, 
     unsafe_allow_html=True
