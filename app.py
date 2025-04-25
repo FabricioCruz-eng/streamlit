@@ -213,7 +213,7 @@ Os arquivos utilizados na análise estão disponíveis em:
 st.markdown("---")
 st.markdown(
     """
-    <div style="text-align: center; color: white; background-color: black; padding: 10px;">
+    <div style="text-align: center; color: white; background-color: #262730; padding: 10px;">
         Todos os direitos reservados - Claro Brasil
     </div>
     """, 
