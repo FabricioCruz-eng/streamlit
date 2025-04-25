@@ -214,8 +214,7 @@ st.markdown("---")
 st.markdown(
     """
     <div style="text-align: center; color: white; background-color: black; padding: 10px;">
-        Todos os direitos reservados. <a href="#" style="color: white;">Política de Privacidade</a> - <a href="#" style="color: white;">Termos de Uso</a>
-        <br>CNPJ: 41.075.192/0001-82
+        Todos os direitos reservados.<br>Claro Brasil
     </div>
     """, 
     unsafe_allow_html=True
