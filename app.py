@@ -208,3 +208,8 @@ Ferramenta criada e mantida por fabricio.cruz@claro.com.br
 Os arquivos utilizados na análise estão disponíveis em:
 1. Repositório de Dados do Portal Roma ./xls
 2. Disponibilidade ./trecho""")
+
+
+
+                                                                                               st.markdown(""" Todos os direitos reservados. Política de Privacidade - Termos de Uso 
+                                                                                                                       Claro Brasil""")
