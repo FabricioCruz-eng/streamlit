@@ -217,7 +217,7 @@ st.markdown(
         Todos os direitos reservados. <a href="#" style="color: white;">Política de Privacidade</a> - <a href="#" style="color: white;">Termos de Uso</a>
         <br>Claro Brasil
     </div>
-    """.
+    """,
     unsafe_allow_html=False   
 ) 
 
