@@ -28,7 +28,7 @@ with st.sidebar:
     ])
 
 # Título do aplicativo
-st.title("📈style=font-size: 24px; color:#e9775d; Consulta Disponibilidade de Rede")
+st.title(" <h1 📈style=font-size: 24px; color:#e9775d; Consulta Disponibilidade de Rede</h1>",unsafe_allow_html=True)
 
 # Upload do arquivo Excel
 uploaded_file = st.file_uploader("Carregar arquivo Excel", type=["xlsx", "xls"])
